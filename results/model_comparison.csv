@@ -1,0 +1,6 @@
+Model Key,Model Name,Accuracy (%),Precision Macro (%),Recall Macro (%),F1-Score Macro (%),Train Time (ms),Inference (ms/sample)
+KNN,"K-Nearest Neighbors (KNN, k=5)",98.67,98.68,98.67,98.67,1.48,0.0445
+DT,"Decision Tree (CART, max_depth=12)",95.89,95.94,95.89,95.89,83.71,0.0007
+NB,Gaussian Naive Bayes (GNB),88.67,89.71,88.67,88.39,4.07,0.0033
+LR,Logistic Regression (Multinomial L2),97.89,97.93,97.89,97.89,150.41,0.0006
+SVM,Support Vector Machine (RBF Kernel),98.89,98.91,98.89,98.89,251.89,0.1761

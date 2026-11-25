@@ -1,0 +1,212 @@
+{
+  "model_key": "dt",
+  "model_name": "Decision Tree (CART, max_depth=12)",
+  "train_samples": 3600,
+  "test_samples": 900,
+  "accuracy": 0.9589,
+  "precision_macro": 0.9594,
+  "recall_macro": 0.9589,
+  "f1_macro": 0.9589,
+  "precision_weighted": 0.9594,
+  "recall_weighted": 0.9589,
+  "f1_weighted": 0.9589,
+  "train_time_ms": 83.71,
+  "inference_per_sample_ms": 0.0007,
+  "confusion_matrix": [
+    [
+      82,
+      1,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      86,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      3
+    ],
+    [
+      2,
+      0,
+      86,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      87,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      88,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      87,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      88,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      3,
+      85,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      88,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      86
+    ]
+  ],
+  "per_class_report": {
+    "POINT_POSE": {
+      "precision": 0.9761904761904762,
+      "recall": 0.9111111111111111,
+      "f1-score": 0.9425287356321839,
+      "support": 90.0
+    },
+    "PINCH_INDEX_POSE": {
+      "precision": 0.9347826086956522,
+      "recall": 0.9555555555555556,
+      "f1-score": 0.945054945054945,
+      "support": 90.0
+    },
+    "PINCH_MIDDLE_POSE": {
+      "precision": 0.9247311827956989,
+      "recall": 0.9555555555555556,
+      "f1-score": 0.9398907103825137,
+      "support": 90.0
+    },
+    "TWO_FINGER_SCROLL_POSE": {
+      "precision": 1.0,
+      "recall": 0.9666666666666667,
+      "f1-score": 0.9830508474576272,
+      "support": 90.0
+    },
+    "ZOOM_L_POSE": {
+      "precision": 0.946236559139785,
+      "recall": 0.9777777777777777,
+      "f1-score": 0.9617486338797814,
+      "support": 90.0
+    },
+    "THREE_FINGER_POSE": {
+      "precision": 0.9666666666666667,
+      "recall": 0.9666666666666667,
+      "f1-score": 0.9666666666666667,
+      "support": 90.0
+    },
+    "FOUR_FINGER_POSE": {
+      "precision": 0.946236559139785,
+      "recall": 0.9777777777777777,
+      "f1-score": 0.9617486338797814,
+      "support": 90.0
+    },
+    "OPEN_PALM_POSE": {
+      "precision": 0.9550561797752809,
+      "recall": 0.9444444444444444,
+      "f1-score": 0.9497206703910615,
+      "support": 90.0
+    },
+    "SHAKA_BRIGHTNESS_POSE": {
+      "precision": 0.9777777777777777,
+      "recall": 0.9777777777777777,
+      "f1-score": 0.9777777777777777,
+      "support": 90.0
+    },
+    "FIST_IDLE_POSE": {
+      "precision": 0.9662921348314607,
+      "recall": 0.9555555555555556,
+      "f1-score": 0.9608938547486033,
+      "support": 90.0
+    },
+    "accuracy": 0.9588888888888889,
+    "macro avg": {
+      "precision": 0.9593970145012584,
+      "recall": 0.9588888888888889,
+      "f1-score": 0.9589081475870941,
+      "support": 900.0
+    },
+    "weighted avg": {
+      "precision": 0.9593970145012585,
+      "recall": 0.9588888888888889,
+      "f1-score": 0.9589081475870941,
+      "support": 900.0
+    }
+  }
+}
